@@ -1,2 +1,2 @@
-# Great-Slider
+# Great Slider
 Slider em JS puro
