@@ -1,0 +1,60 @@
+/*slider*/
+.rtimg{
+  box-sizing: border-box;
+  overflow-y: hidden;
+  width: 120px;
+  border:1px solid #d2d2d2;
+  height: 150px;
+  position:relative;
+  overflow-y: hidden;
+  background-color: #d2d2d2;
+  background-size:100% 100%;
+  display: inline-block;
+  margin: 0px 8px 0px 0px;
+  transition: all 1s;
+  /*border: 1px solid #040404; */
+}
+
+.all-imgs{
+  width: max-content;
+  height: auto;
+  transition: all 1s;
+}
+
+.visible{
+  box-sizing: border-box;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.prev{
+  float:left;
+  position:absolute;
+  left:0;
+  top:50%;
+}
+
+.next{
+  float:right;
+  position:absolute;
+  right:0;
+  top:50%;
+}
+
+.btnpass{
+  width: 25px;
+  height: 25px;
+  outline:none;
+  border:none;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.65);
+  margin-top: -15px;
+  z-index: 1;
+  background-size: 60% 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
